@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+  "include": [
+    "*.mts",
+    "src/**/*.mts",
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
